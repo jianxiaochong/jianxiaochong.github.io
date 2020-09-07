@@ -157,7 +157,7 @@ Markdown symbols<code class=“highlighter rouge”>```</code>可以轻松地创
 
 使用<code class=“highlighter rouge”>``语言</code>可以得到带有行号和语法突出显示的代码片段。
 
->**注意**：此主题中不允许使用`{% raw %}{%{% endraw %} highlight LANGUAGE {% raw %}%}{% endraw %}` 或者 `{% raw %}{%{% endraw %} highlight LANGUAGE linenos {% raw %}%}{% endraw %}！
+>**注意**：The Jekyll style `{% raw %}{%{% endraw %} highlight LANGUAGE {% raw %}%}{% endraw %}` or `{% raw %}{%{% endraw %} highlight LANGUAGE linenos {% raw %}%}{% endraw %}` are not allowed to be used in this theme !
 
 ```
 # Yaml code snippet
