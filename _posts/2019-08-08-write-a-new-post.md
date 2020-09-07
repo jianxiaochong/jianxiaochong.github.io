@@ -25,11 +25,11 @@ tags: [TAG]     #标记名应始终为小写
 
 > **注**：posts的***layout***默认设置为`post`，因此不需要在Front Matter block中添加变量***layout***。
 
-### date (日期时区)
+### date  日期时区 
 
 为了准确记录帖子的发布日期，您不应该只设置`_配置yml`但也要在前面的“date”字段中提供邮政的时区。格式：`+/-TTTT`，例如`+0800`。
 
-###  Categories and Tags (类别和标记)
+###  Categories and Tags 类别和标记
 
 每个帖子的“categories”设计为最多包含两个元素，“tags”中的元素数量可以是零到无穷大。
 
@@ -155,7 +155,7 @@ Markdown symbols<code class=“highlighter rouge”>```</code>可以轻松地创
 
 ## 特定语言
 
-使用<code class=“highlighter rouge”>``语言</code>可以得到带有行号和语法突出显示的代码片段。
+使用<code class="highlighter-rouge">```language</code> 可以得到带有行号和语法突出显示的代码片段。
 
 >**注意**：The Jekyll style `{% raw %}{%{% endraw %} highlight LANGUAGE {% raw %}%}{% endraw %}` or `{% raw %}{%{% endraw %} highlight LANGUAGE linenos {% raw %}%}{% endraw %}` are not allowed to be used in this theme !
 
