@@ -1,5 +1,5 @@
 ---
-title: 文本和排版
+title: Markdown文本和排版
 author: jianxiaochong
 date: 2020-08-08 11:33:00 +0800
 categories: [Blogging, Demo]
