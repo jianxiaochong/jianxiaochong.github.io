@@ -8,9 +8,9 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: 简小虫                          # 主标题
+title: jianxiaochong                         # 主标题
 
-tagline: 个人博客       #子标题
+tagline: 简小虫 个人博客       #子标题
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
