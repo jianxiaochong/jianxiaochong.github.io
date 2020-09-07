@@ -1,7 +1,7 @@
 ---
 title: 文本和排版
 author: jianxiaochong
-date: 2019-08-08 11:33:00 +0800
+date: 2020-08-08 11:33:00 +0800
 categories: [Blogging, Demo]
 tags: [typography]
 math: true
