@@ -1,13 +1,11 @@
 ---
-
-标题：文本和排版
-作者：jianxiaochong
-日期：2020-09-07 11:33:00+0800
-类别：【博客、演示】
-标签：[排版]
+title: Text and Typography
+author: jianxiaochong
+date: 2019-08-08 11:33:00 +0800
+categories: [Blogging, Demo]
+tags: [typography]
 math: true
-图像：/assets/img/sample/devices-模型.png
-
+image: /assets/img/sample/devices-mockup.png
 ---
 
 这个Jekyll模板完全兼容Markdown语法。现在，让我们看看文本和排版。
