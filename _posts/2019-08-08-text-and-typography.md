@@ -1,5 +1,5 @@
 ---
-title: Text and Typography
+title: 文本和排版
 author: jianxiaochong
 date: 2019-08-08 11:33:00 +0800
 categories: [Blogging, Demo]
@@ -10,7 +10,7 @@ image: /assets/img/sample/devices-mockup.png
 
 这个Jekyll模板完全兼容Markdown语法。现在，让我们看看文本和排版。
 
-##标题
+## 标题
 
 ---
 
@@ -24,7 +24,7 @@ image: /assets/img/sample/devices-mockup.png
 
 ---
 
-##段落
+## 段落
 
 我似浮云独自游
 
@@ -40,7 +40,7 @@ image: /assets/img/sample/devices-mockup.png
 
 璀璨漫漫如繁星。
 
-##列表
+## 列表
 
 ###有序列表
 
@@ -52,7 +52,7 @@ image: /assets/img/sample/devices-mockup.png
 
 
 
-###无序列表
+### 无序列表
 
 - item 1
 	- sub item 1
@@ -60,11 +60,11 @@ image: /assets/img/sample/devices-mockup.png
 
 - item 2
 
-##整块引用
+## 整块引用
 
 >此行显示块引号。
 
-##表格
+## 表格
 
 |公司|联系人|国家|
 |:-----------------------------|:-----------------|--------:|
@@ -72,23 +72,23 @@ image: /assets/img/sample/devices-mockup.png
 |Adidas|阿迪达斯|德国|
 |Huiwei| 华为|中国|
 
-##链接
+## 链接
 
 <http://127.0.0.1：4000>
 
-##脚注
+## 脚注
 
 Click the hook will locate the footnote[^footnote].
 
-##图像
+## 图像
 
 ![Desktop View](/assets/img/sample/mockup.png)
 
-##内联代码
+## 内联代码
 
 这是一个例子`Inline Code`
 
-##数学
+## 数学
 
 The mathematics powered by [**MathJax**](https://www.mathjax.org/):
 
@@ -98,9 +98,9 @@ When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they 
 
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
-##代码段
+## 代码段
 
-###普通
+### 普通
 
 ```
 
@@ -108,9 +108,9 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 ```
 
-###特定语言
+### 特定语言
 
-####console
+#### console
 
 ```
 $ date
@@ -188,7 +188,7 @@ fi;
 
 
 
-##反脚注
+## 反脚注
 
 
 
