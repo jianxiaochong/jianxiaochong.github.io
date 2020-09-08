@@ -1,9 +1,12 @@
 ---
-title: 如何写一篇新文章
+
+title: 撰写新文章
 author: jianxiaochong
 date: 2020-08-08 14:10:00 +0800
 categories: [Blogging, Tutorial]
 tags: [writing]
+math: true
+
 ---
 
 ## 命名和路径
