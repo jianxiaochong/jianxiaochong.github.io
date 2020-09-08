@@ -5,7 +5,7 @@ author: jianxiaochong
 date: 2020-09-08 00:34:00 +0800
 categories: [Blogging, Tutorial]
 tags: [favicon]
-toc: false
+math: true
 
 ---
 ### Oracle11g 安装及使用
