@@ -2,7 +2,7 @@
 title: 如何写一篇新文章
 author: jianxiaochong
 date: 2020-08-08 14:10:00 +0800
-categories: [博客、教程]
+categories: [Blogging, Tutorial]
 tags: [writing]
 ---
 
@@ -153,13 +153,13 @@ Markdown symbols<code class=“highlighter rouge”>```</code>可以轻松地创
 这是一个常见的代码片段，没有语法突出显示和行号.
 ```
 
-## 特定语言
+## Specific Language
 
-使用<code class="highlighter-rouge">```language</code> 可以得到带有行号和语法突出显示的代码片段。
+Using <code class="highlighter-rouge">```language</code> you will get code snippets with line Numbers and syntax highlight.
 
->**注意**：The Jekyll style `{% raw %}{%{% endraw %} highlight LANGUAGE {% raw %}%}{% endraw %}` or `{% raw %}{%{% endraw %} highlight LANGUAGE linenos {% raw %}%}{% endraw %}` are not allowed to be used in this theme !
+> **Note**: The Jekyll style `{% raw %}{%{% endraw %} highlight LANGUAGE {% raw %}%}{% endraw %}` or `{% raw %}{%{% endraw %} highlight LANGUAGE linenos {% raw %}%}{% endraw %}` are not allowed to be used in this theme !
 
-```
+```yaml
 # Yaml code snippet
 items:
     - part_no:   A4786
@@ -170,7 +170,7 @@ items:
 
 #### Liquid Codes
 
-如果要显示**Liquid**代码段，请用`{%raw%}{%endraw%}raw{%raw%}%}{%endraw%}`和{%raw%}{%endraw%}{%raw%}%}{%endraw%}{%endraw%}`.
+If you want to display the **Liquid** snippet, surround the liquid code with `{% raw %}{%{% endraw %} raw {%raw%}%}{%endraw%}` and `{% raw %}{%{% endraw %} endraw {%raw%}%}{%endraw%}` .
 
 {% raw %}
 ```liquid
@@ -181,7 +181,7 @@ items:
 {% endraw %}
 
 
-## 了解更多
+## Learn More
 
-有关Jekyll帖子的更多信息，请访问[Jekyll Docs:posts](https://jekyllrb.com/docs/posts/).
+For more knowledge about Jekyll posts, visit the [Jekyll Docs: Posts](https://jekyllrb.com/docs/posts/).
 
