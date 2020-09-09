@@ -5,7 +5,7 @@ date: 2019-08-08 11:33:00 +0800
 categories: [Blogging, Demo]
 tags: [typography]
 math: true
-image: /assets/img/sample/devices-mockup.png
+
 ---
 
 ## 必记的Linux命令
