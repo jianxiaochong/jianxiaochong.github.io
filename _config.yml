@@ -109,9 +109,9 @@ defaults:
   -
     scope:
       path: ""          #这里的空字符串表示项目中的所有文件
-      type: "posts"  # 以前的 `post`， 在 Jekyll 2.2 
+      type: posts
     values:
-      layout: "posts"
+      layout: post
       comments: true    #在帖子中启用评论。
       toc: true         #在文章中显示目录栏。
       location: Post
