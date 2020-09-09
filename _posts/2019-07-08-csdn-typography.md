@@ -1,12 +1,11 @@
 ﻿---
-
 title: gitcommit
 author: jianxiaochong
-date: 2020-08-08 14:10:00 +0800
-categories: [Blogging, Tutorial]
-tags: [writing]
-toc: false
-
+date: 2020-08-08 11:33:00 +0800
+categories: [Blogging, Demo]
+tags: [typography]
+math: true
+image: /assets/img/sample/devices-mockup.png
 ---
 
 ## 必记的Linux命令
@@ -17,3 +16,8 @@ toc: false
  把upload.zip解压到当前文件夹下 unzip upload.zip
  给a.txt文件的属主和其他用户分别增加写和执行权限chmod -R u+w,o+x a.txt
  实时查看a.log日志文件的信息tail -f a.log
+
+
+
+
+[^footnote]：脚注源。
