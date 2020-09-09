@@ -22,7 +22,7 @@ url: 'https://jianxiaochong.github.io'
 
 author: jianxiaochong                  #改成你的全名
 
-avatar: /assets/img/sample/avatar.jpg   #支持互联网资源
+avatar: /assets/img/sample/avatar.jpg   #大头贴
 
 github:
   username: jianxiaochong             #更改为github用户名
@@ -83,7 +83,7 @@ theme_mode: dual
 # boolean type, global switch for ToC in posts.
 toc: true
 
-paginate: 10
+paginate: 10               # 一页你准备放几篇文章
 
 markdown: kramdown
 
@@ -109,9 +109,9 @@ defaults:
   -
     scope:
       path: ""          #这里的空字符串表示项目中的所有文件
-      type: posts
+      type: "posts"  # 以前的 `post`， 在 Jekyll 2.2 
     values:
-      layout: post
+      layout: "posts"
       comments: true    #在帖子中启用评论。
       toc: true         #在文章中显示目录栏。
       location: Post
