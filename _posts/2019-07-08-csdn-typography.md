@@ -1,7 +1,7 @@
 ﻿---
-title: git简介与安装
+title: Git简介与安装
 author: jianxiaochong
-date: 2019-08-08 11:33:00 +0800
+date: 2019-08-07 11:33:00 +0800
 categories: [Blogging, Demo]
 tags: [typography]
 math: true
