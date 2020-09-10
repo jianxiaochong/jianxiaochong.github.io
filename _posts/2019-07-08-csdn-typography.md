@@ -38,8 +38,8 @@ Git的安装非常简单，我们可以直接从[官网](https://git-scm.com/dow
 安装完成后，首先我们先来自报家门，当然你不必担心有人冒充，Git有方法可查。**注意，此处用户名与邮箱不得使用中文**
 
 ```
-git config --global user.name &quot;用户名;
-git config --global user.email &quot;邮箱;
+git config --global user.name "用户名"
+git config --global user.email "邮箱"
 ```
 
 执行完成之后，可以使用 `git config --list` 命令可以查看信息是否写入成功
