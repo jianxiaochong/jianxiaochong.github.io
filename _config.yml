@@ -103,7 +103,7 @@ kramdown:
 
 #除非您是Jekyll和Web开发方面的专业用户，否则不要更改此设置，
 #或者你认为你足够聪明，可以在这个模板中更改其他相关的url。
-permalink: /_posts/:title/
+permalink: /posts/:title/
 
 defaults:
   -
