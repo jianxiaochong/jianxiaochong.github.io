@@ -50,7 +50,7 @@ type: categories
           {{ category_name }}
         </a>
 
-        <!-- content count -->
+        
         {% assign top_posts_size = site.categories[category_name] | size %}
         <span class="text-muted small font-weight-light">
           {% if sub_categories_size > 0 %}
