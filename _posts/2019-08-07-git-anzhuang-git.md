@@ -1,5 +1,5 @@
 ﻿---
-title: Git简介与安装
+title: Git
 author: jianxiaochong
 date: 2019-08-07 11:33:00 +0800
 categories: [Blogging, Demo]
