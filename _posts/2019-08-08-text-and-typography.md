@@ -1,16 +1,17 @@
 ---
-title: Markdown文本和排版
-author: jianxiaochong
-date: 2020-08-08 11:33:00 +0800
+title: Text and Typography
+author: Cotes Chung
+date: 2019-08-08 11:33:00 +0800
 categories: [Blogging, Demo]
 tags: [typography]
 math: true
 image: /assets/img/sample/devices-mockup.png
 ---
 
-这个Jekyll模板完全兼容Markdown语法。现在，让我们看看文本和排版。
+This post is to show Markdown syntax rendering on [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork), you can also use it as an example of writing. Now, let's start looking at text and typography.
 
-## 标题
+
+## Titles
 
 ---
 
@@ -24,35 +25,29 @@ image: /assets/img/sample/devices-mockup.png
 
 ---
 
-## 段落
+## Paragraph
 
-我似浮云独自游
+I wandered lonely as a cloud
 
-悠然溪谷群山中，
+That floats on high o'er vales and hills,
 
-霎时美景入bai眼帘，
+When all at once I saw a crowd,
 
-金色水仙朵朵开，
+A host, of golden daffodils;
 
-遍布湖畔树bai荫下，
+Beside the lake, beneath the trees,
 
-摇曳风中舞翩翩，
+Fluttering and dancing in the breeze.
 
-璀璨漫漫如繁星。
+## List
 
-## 列表
+### Ordered list
 
-###有序列表
+1. first item
+2. second item
+3. third item
 
-1.第一项
-
-2.第二项
-
-3.第三项
-
-
-
-### 无序列表
+### Unordered list
 
 - item 1
 	- sub item 1
@@ -60,35 +55,61 @@ image: /assets/img/sample/devices-mockup.png
 
 - item 2
 
-## 整块引用
+## Block Quote
 
->此行显示块引号。
+> This line to shows the Block Quote.
 
-## 表格
+## Tables
 
-|公司|联系人|国家|
+| Company                      | contact          | Country |
 |:-----------------------------|:-----------------|--------:|
-|Nike | 耐克 |美国|
-|Adidas|阿迪达斯|德国|
-|Huiwei| 华为|中国|
+| Alfreds Futterkiste          | Maria Anders     | Germany |
+| Island Trading               | Helen Bennett    | UK      |
+| Magazzini Alimentari Riuniti | Giovanni Rovelli | Italy   |
 
-## 链接
+## Link
 
-<http://127.0.0.1：4000>
+<http://127.0.0.1:4000>
 
-## 脚注
+
+## Footnote
 
 Click the hook will locate the footnote[^footnote].
 
-## 图像
+
+## Images
+
+By default, the image is centered and the image caption can be displayed at the bottom:
 
 ![Desktop View](/assets/img/sample/mockup.png)
+_Full screen width and center alignment_
 
-## 内联代码
+You can change the size of the picture:
 
-这是一个例子`Inline Code`
+![Desktop View](/assets/img/sample/mockup.png){: width="400"}
+_400px image width_
 
-## 数学
+In addition, you can use class `normal` , `left` and `right` to specify the image position (but in these case, the image caption is prohibited), for example:
+
+- Normal position
+  
+  ![Desktop View](/assets/img/sample/mockup.png){: width="350" class="normal"}
+
+- Float to the left
+
+  ![Desktop View](/assets/img/sample/mockup.png){: width="240" class="left"}
+  "A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space."
+
+- Float to the right
+
+  ![Desktop View](/assets/img/sample/mockup.png){: width="240" class="right"}
+  "A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space."
+
+## Inline code
+
+This is an example of `Inline Code`.
+
+## Mathematics
 
 The mathematics powered by [**MathJax**](https://www.mathjax.org/):
 
@@ -98,27 +119,25 @@ When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they 
 
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
-## 代码段
+## Code Snippet
 
-### 普通
-
-```
-
-这是一个常见的代码片段，没有语法突出显示和行号。
+### Common
 
 ```
-
-### 特定语言
-
-#### console
-
+This is a common code snippet, without syntax highlight and line number.
 ```
+
+### Specific Languages
+
+#### Console
+
+```console
 $ date
 Sun Nov  3 15:11:12 CST 2019
 ```
 
 
-####
+#### Terminal
 
 ```terminal
 $ env |grep SHELL
@@ -128,7 +147,7 @@ PYENV_SHELL=bash
 
 #### Ruby
 
-```
+```ruby
 def sum_eq_n?(arr, n)
   return true if arr.empty? && n == 0
   arr.product(arr).reject { |a,b| a == b }.any? { |a,b| a + b == n }
@@ -137,7 +156,7 @@ end
 
 #### Shell
 
-```
+```shell
 if [ $? -ne 0 ]; then
     echo "The command was not successful.";
     #do the needful / exit
@@ -147,7 +166,7 @@ fi;
 #### Liquid
 
 {% raw %}
-```
+```liquid
 {% if product.title contains 'Pack' %}
   This product's title contains the word Pack.
 {% endif %}
@@ -156,7 +175,7 @@ fi;
 
 #### HTML
 
-```
+```html
 <div class="sidenav">
   <a href="#contact">Contact</a>
   <button class="dropdown-btn">Dropdown
@@ -173,7 +192,7 @@ fi;
 
 **Horizontal Scrolling**
 
-```
+```html
 <div class="panel-group">
   <div class="panel panel-default">
     <div class="panel-heading" id="{{ category_name }}">
@@ -186,10 +205,6 @@ fi;
 ```
 
 
+## Reverse Footnote
 
-
-## 反脚注
-
-
-
-[^footnote]：脚注源。
+[^footnote]: The footnote source.

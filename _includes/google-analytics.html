@@ -5,10 +5,12 @@
   © 2017-2019 Cotes Chung
   MIT License
 -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics.id }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-
+  
   gtag('js', new Date());
   gtag('config', '{{ site.google_analytics.id }}');
 </script>
