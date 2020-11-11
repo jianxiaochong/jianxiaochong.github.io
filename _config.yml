@@ -1,0 +1,202 @@
+﻿# The Site Settings
+# v2.0
+# https://github.com/cotes2020/jekyll-theme-chirpy
+# © 2017-2019 Cotes Chung
+# MIT licensed
+
+
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+#--------------------------
+
+title: jianxiaochong                         # 主标题
+
+tagline: 简小虫 丨个人博客       #子标题
+
+description: >-                        # used by seo meta and the atom feed
+  A minimal, portfolio, sidebar,
+  bootstrap Jekyll theme with responsive web design
+  and focuses on text presentation.
+
+#替换为网站url，例如。https://username.github.io"
+url: 'https://jianxiaochong.github.io'
+
+author: jianxiaochong                  #改成你的全名
+
+avatar: /assets/img/sample/avatar.jpg   #大头贴
+
+github:
+  username: jianxiaochong             #更改为github用户名
+
+twitter:
+  username: jianxiaochong            #更改为您的twitter用户名
+
+social:
+  name: jianxiaochong                  #它将在页脚显示为版权所有者
+  email: 814105368@qq.com             #更改您的电子邮件地址
+  links:
+    # The first element serves as the copyright owner's link
+    - https://twitter.com/jianxiaochong      #更改到您的twitter主页
+    - https://github.com/jianxiaochong       #更改到github主页
+    # Uncomment below to add more social links
+    # - https://www.facebook.com/username
+    # - https://www.linkedin.com/in/username
+
+google_site_verification: google_meta_tag_verification #更改验证字符串
+
+#--------------------------
+
+
+#只有当您的站点类型是GitHub Project sites并且没有自定义域时，
+#将下面的值更改为“/projectname”.
+baseurl: ''
+
+#更改时区› http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+timezone: Asia/Shanghai
+
+google_analytics:
+  id: ''          #填写您的Google Analytics ID
+  pv:
+    # The Google Analytics pageviews switch.
+    # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
+    enabled: false
+    # the next options only valid when `google_analytics.pv` is enabled.
+    proxy_url: ''
+    proxy_endpoint: ''
+    cache: false  # pv data local cache, good for the users from GFW area.
+
+disqus:
+  comments: false  #boolean类型，用于发布注释的全局开关。
+  shortname: ''    #填写你的论文简称 › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+
+
+# Prefer color scheme setting, available values:
+#
+#     dual   - Follow the system prefer color by default, and a toggle will display
+#              in the left bottom of Sidebar, which used for switch the theme between dark and light.
+#
+#     light  - Use the light color scheme
+#
+#     dark   - Use the dark color scheme
+#
+theme_mode: dual
+
+# boolean type, global switch for ToC in posts.
+toc: true
+
+paginate: 10               # 一页你准备放几篇文章
+
+markdown: kramdown	#启用kramdown
+
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+    # default_lang: console
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+#除非您是Jekyll和Web开发方面的专业用户，否则不要更改此设置，
+#或者你认为你足够聪明，可以在这个模板中更改其他相关的url。
+permalink: /posts/:title/
+
+defaults:
+  -
+    scope:
+      path: ""          #这里的空字符串表示项目中的所有文件
+      type: posts
+    values:
+      layout: post
+      comments: true    #在帖子中启用评论。
+      toc: true         #在文章中显示目录栏。
+      location: Post
+      breadcrumb:
+        -
+          label: Posts
+          url: /
+  -
+    scope:
+      path: _drafts
+    values:
+      comments: false
+  -
+    scope:
+      path: tags
+    values:
+      tab_active: Tags
+      location: Tag
+      breadcrumb:
+        -
+          label: Home
+          url: /
+        -
+          label: Tags
+          url: /tabs/tags/
+  -
+    scope:
+      path: categories
+    values:
+      tab_active: Categories
+      location: Category
+      breadcrumb:
+        -
+          label: Home
+          url: /
+        -
+          label: Categories
+          url: /tabs/categories/
+  -
+    scope:
+      path: tabs
+    values:
+      layout: page
+      dynamic_title: true    #在移动屏幕中隐藏标题。
+      breadcrumb:
+        -
+          label: Home
+          url: /
+
+
+sass:
+  sass_dir: /assets/css
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: [html, head, body, dt, dd, rt, rp,
+            optgroup, option, colgroup, caption,
+            thead, tbody, tfoot, tr, td, th]
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
+
+exclude:
+  - vendor        #避免Jekyll错误地读取Travis CI的VM上的供应商目录。
+  - Gemfile.lock
+  - Gemfile
+  - tools
+  - docs
+  - README.md
+  - LICENSE
+
+sitemap_exclude:  #站点地图将排除以下项目。
+  fuzzy:
+    - /assets/
+  accurate:
+    - /norobots/
+    - /tabs/
+    - /categories/
+    - /tags/
+    - /posts/
+    - 404.html
+    - feed.xml
+    - sitemap.xml
+    - robots.txt
+    - redirects.json
