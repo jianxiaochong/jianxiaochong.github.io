@@ -42,7 +42,7 @@
 [Fork **jianxiaochong**](https://github.com/jianxiaochong/jianxiaochong.github.io/fork)，然后克隆到本地：
 
 ```terminal
-$ git clone git@github.com:<username>/jekyll-theme-chirpy -b master --single-branch
+$ git clone git@github.com:<username>/jianxiaochong.github.io -b master --single-branch
 ```
 
 ### 设置本地环境
