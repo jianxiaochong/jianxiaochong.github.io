@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d06013b1-005e-4257-9020-f83f82394770" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1k61U4wKpKarPc23NSjxtPkpiwM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tags/favicon/index.html" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/tags/favicon/index.html" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d06013b1-005e-4257-9020-f83f82394770" name="默认的" comment="" />
+      <created>1605006239235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605006239235</updated>
+      <workItem from="1605006242017" duration="3354000" />
+      <workItem from="1605062072804" duration="12582000" />
+      <workItem from="1605158044751" duration="8455000" />
+    </task>
+    <task id="LOCAL-00001" summary="修复">
+      <created>1605006818399</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605006818400</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修复">
+      <created>1605011087437</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605011087437</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修复">
+      <created>1605011142505</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605011142505</updated>
+    </task>
+    <task id="LOCAL-00004" summary="111">
+      <created>1605062352505</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605062352505</updated>
+    </task>
+    <task id="LOCAL-00005" summary="更新">
+      <created>1605064033797</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605064033797</updated>
+    </task>
+    <task id="LOCAL-00006" summary="更新">
+      <created>1605064143447</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605064143447</updated>
+    </task>
+    <task id="LOCAL-00007" summary="更新">
+      <created>1605064190147</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605064190147</updated>
+    </task>
+    <task id="LOCAL-00008" summary="更新">
+      <created>1605064842277</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605064842277</updated>
+    </task>
+    <task id="LOCAL-00009" summary="更新">
+      <created>1605077273159</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605077273159</updated>
+    </task>
+    <task id="LOCAL-00010" summary="更新">
+      <created>1605078004207</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605078004207</updated>
+    </task>
+    <task id="LOCAL-00011" summary="更新">
+      <created>1605078260835</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605078260835</updated>
+    </task>
+    <task id="LOCAL-00012" summary="更新">
+      <created>1605078679152</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605078679152</updated>
+    </task>
+    <task id="LOCAL-00013" summary="更新">
+      <created>1605079289735</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605079289735</updated>
+    </task>
+    <task id="LOCAL-00014" summary="更新">
+      <created>1605079460347</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605079460347</updated>
+    </task>
+    <task id="LOCAL-00015" summary="更新">
+      <created>1605080319649</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605080319649</updated>
+    </task>
+    <task id="LOCAL-00016" summary="更新">
+      <created>1605081826524</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605081826524</updated>
+    </task>
+    <task id="LOCAL-00017" summary="更新">
+      <created>1605081856473</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1605081856473</updated>
+    </task>
+    <task id="LOCAL-00018" summary="更新">
+      <created>1605081962853</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1605081962853</updated>
+    </task>
+    <task id="LOCAL-00019" summary="更新">
+      <created>1605083502976</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1605083502976</updated>
+    </task>
+    <task id="LOCAL-00020" summary="更新">
+      <created>1605084207455</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1605084207455</updated>
+    </task>
+    <task id="LOCAL-00021" summary="更新">
+      <created>1605084514340</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1605084514340</updated>
+    </task>
+    <task id="LOCAL-00022" summary="更新">
+      <created>1605086024708</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1605086024708</updated>
+    </task>
+    <task id="LOCAL-00023" summary="更新">
+      <created>1605238139253</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1605238139253</updated>
+    </task>
+    <task id="LOCAL-00024" summary="更新">
+      <created>1605238189527</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1605238189527</updated>
+    </task>
+    <task id="LOCAL-00025" summary="更新">
+      <created>1605245719681</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1605245719681</updated>
+    </task>
+    <task id="LOCAL-00026" summary="更新">
+      <created>1605252553942</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1605252553942</updated>
+    </task>
+    <task id="LOCAL-00027" summary="更新">
+      <created>1605255002493</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1605255002493</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修复" />
+    <MESSAGE value="111" />
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="842" y="382" key="#Notifications" timestamp="1605238257304">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="842" y="382" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1605238257304" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605080770719">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605080770719" />
+    <state x="649" y="85" key="CommitChangelistDialog2" timestamp="1605255001981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="649" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605255001981" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1605083758969">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605083758969" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605083374752">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605083374752" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605255011751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605255011751" />
+    <state x="773" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605254949779">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="773" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605254949779" />
+    <state x="625" y="307" key="git4idea.merge.GitPullDialog" timestamp="1605077866198">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="625" y="307" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605077866198" />
+  </component>
+</project>
