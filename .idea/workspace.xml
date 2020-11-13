@@ -4,6 +4,7 @@
     <list default="true" id="d06013b1-005e-4257-9020-f83f82394770" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/categories/demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories/demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/tutorial/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories/tutorial/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,14 +24,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tags/favicon/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/categories/demo/index.html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/tags/favicon/index.html" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/categories/demo/index.html" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,7 +46,7 @@
       <workItem from="1605006242017" duration="3354000" />
       <workItem from="1605062072804" duration="12582000" />
       <workItem from="1605158044751" duration="8455000" />
-      <workItem from="1605255076948" duration="6180000" />
+      <workItem from="1605255076948" duration="7327000" />
     </task>
     <task id="LOCAL-00001" summary="修复">
       <created>1605006818399</created>
@@ -271,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605263287080</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="更新">
+      <created>1605263977266</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1605263977266</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,22 +300,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605080770719" />
-    <state x="649" y="85" key="CommitChangelistDialog2" timestamp="1605263286159">
+    <state x="649" y="85" key="CommitChangelistDialog2" timestamp="1605263976343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="649" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605263286159" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1605083758969">
+    <state x="649" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605263976343" />
+    <state x="92" y="92" width="1736" height="856" maximized="true" key="DiffContextDialog" timestamp="1605265508993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605083758969" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605083374752">
+    <state x="92" y="92" width="1736" height="856" maximized="true" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605265508993" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605265010093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605083374752" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605262419561">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605265010093" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605263986344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605262419561" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605263986344" />
     <state x="773" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605260154621">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
