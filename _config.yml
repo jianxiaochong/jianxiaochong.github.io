@@ -48,7 +48,7 @@ google_site_verification: google_meta_tag_verification #更改验证字符串
 
 #只有当您的站点类型是GitHub Project sites并且没有自定义域时，
 #将下面的值更改为“/projectname”.
-baseurl: '/jianxiaochong.github.io'
+baseurl: '/'
 
 #更改时区› http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Shanghai
