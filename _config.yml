@@ -1,7 +1,7 @@
 ﻿#### Exclude
 exclude: [".rvmrc", ".rbenv-version", "README.md", "README_en.md", "Rakefile", "changelog.md"]
 
-#### Code Highlighter
+#### Code Highlighter 代码高亮主题
 # 'pygments' is unsupported on GitHub Pages now.
 #highlighter: rouge
 highlighter: default | night
@@ -29,7 +29,7 @@ defaults:
 #### Pagination  分页
 paginate: 100
 
-#### Site
+#### Site  站点
 title : jianxiaochong
 tagline: 简小虫 丨个人博客
 assets: /assets
@@ -53,7 +53,7 @@ menu:
 ## title: tags (or categories)
 ## ---
 
-#### Widgets
+#### Widgets  右边显示部分，按着排序进行排序
 widgets:
 - category
 - tag
@@ -65,7 +65,7 @@ widgets:
 ## provide seven widgets:github-card,category,tag,rss,archive,tagcloud,links,weibo,douban
 
 
-#### RSS
+#### RSS  地址
 rss: /atom.xml ## RSS address.
 
 #### Image
@@ -77,11 +77,12 @@ apple_icon: img/jacman.jpg ## size:114px*114px,please put image into the theme f
 author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
 banner_img: img/banner.jpg ## size:1920px*200px+. Banner Picture
 
-#### index post is expanding or not
+#### 首页文章是否展开。默认为展开式，显示 Read More。
 index:
   expand: true           ## default is unexpanding,so you can only see the short description of each post.
   excerpt_link: Read More
 
+### 是否在文章页面自动关闭侧边栏
 close_aside: false  #close sidebar in post page if true
 mathjax: true      #enable mathjax if true
 share_to: true #enable share-to buttons if true
@@ -105,20 +106,20 @@ share_to: true #enable share-to buttons if true
   stackoverflow:  ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
 ## if you set them, the corresponding  share button will show on the footer
 
-#### Toc
+#### Toc  目录，是否在文章中显示目录。显示在侧边栏
 toc:
   article: true   ## show contents in article.
   aside: true     ## show contents in aside.
 ## you can set both of the value to true of neither of them.
 ## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
 
-#### Links
+#### Links  友情链接
 links:
   码农圈: https://coderq.com
   Jark's Blog: http://wuchong.me
   博客园: https://www.cnblogs.com/jianxiaochong
 
-#### Comment
+#### Comment  评论
 duoshuo_shortname:    ## e.g. wuchong      your duoshuo short name.       website: http://duoshuo.com
 disqus_shortname:     ## e.g. wuchong      your disqus short name.        website: http://disqus.com
 hypercomments_id:     ## e.g. 91510        your hypercomments widget id.  website: http://hypercomments.com
@@ -126,7 +127,7 @@ yungentie_productkey: ## your netease yungentie product key.              websit
 ## set only one of them
 ## duoshuo will be shutting down on June 1, 2017
 
-#### Share button
+#### Share button 主题自带分享
 jiathis:
   enable: false ## if you use jiathis as your share tool,the built-in share tool won't be display.
   id:    ## e.g. 1889330 your jiathis ID.
@@ -149,9 +150,11 @@ cnzz_tongji:
 #### Miscellaneous
 ShowCustomFont: true
 fancybox: true        ## if you use gallery post or want use fancybox please set the value to true.
+
+#### 返回顶部按钮，totop。在博客右下脚显示一件返回顶部按钮
 totop: true           ## if you want to scroll to top in every post set the value to true
 
-#### Custom Search
+#### Custom Search  自定义搜索，我用的时百度搜索
 google_cse:
   enable: false
   cx: 018294693190868310296:abnhpuysycw  ## e.g. 018294693190868310296:abnhpuysycw your Custom Search ID.
