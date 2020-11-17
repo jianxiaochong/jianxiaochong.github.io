@@ -39,11 +39,11 @@ language: zh-CN    ## blog site languages: en, zh-CN, zh-TW, de
 
 #### Menu  菜单
 menu:
-  Home: /
-  Archives: /archives
-  About: /about
-  Tags: /tags
-  Category: /categories
+  主页: /
+  归档: /archives
+  关于: /about
+  标签: /tags
+  分类: /categories
 ## you can create `tags` and `categories` folders (I had created them already).
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -73,7 +73,7 @@ imglogo:
 favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`.
 apple_icon: img/jacman.jpg ## size:114px*114px,please put image into the theme folder `/jacman/source/img`.
 author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
-banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
+banner_img: img/banner.jpg ## size:1920px*200px+. Banner Picture
 
 #### index post is expanding or not
 index:
@@ -85,7 +85,7 @@ mathjax: true      #enable mathjax if true
 share_to: true #enable share-to buttons if true
 
 #### Author information
-  author:
+  author: jiaoxiaochong
   name: jiaoxiaochong      ## e.g. wuchong Author name
   intro_line1:  "君子藏器于身，待时而动。不鸣则已，鸣则冲天！"    ## your introduction on the bottom of the page
   #intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
