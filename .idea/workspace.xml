@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d06013b1-005e-4257-9020-f83f82394770" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-    </list>
+    <list default="true" id="d06013b1-005e-4257-9020-f83f82394770" name="默认的" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,14 +62,7 @@
       <workItem from="1605062072804" duration="12582000" />
       <workItem from="1605158044751" duration="8455000" />
       <workItem from="1605255076948" duration="8005000" />
-      <workItem from="1605512860419" duration="25119000" />
-    </task>
-    <task id="LOCAL-00010" summary="更新">
-      <created>1605078004207</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1605078004207</updated>
+      <workItem from="1605512860419" duration="25309000" />
     </task>
     <task id="LOCAL-00011" summary="更新">
       <created>1605078260835</created>
@@ -410,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605608381446</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="更新">
+      <created>1605608463748</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1605608463748</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,10 +468,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="781" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605582697863" />
-    <state x="649" y="85" key="CommitChangelistDialog2" timestamp="1605608380501">
+    <state x="649" y="85" key="CommitChangelistDialog2" timestamp="1605608462935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="649" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605608380501" />
+    <state x="649" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605608462935" />
     <state x="92" y="92" width="1736" height="856" maximized="true" key="DiffContextDialog" timestamp="1605265508993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -487,10 +484,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="755" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605598867673" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605608386685">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605608470901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605608386685" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605608470901" />
     <state x="773" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605598784344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
