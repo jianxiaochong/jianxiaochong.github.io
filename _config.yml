@@ -3,9 +3,9 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "README_en.md", "Rakefile", "
 
 #### Code Highlighter 代码高亮主题
 # 'pygments' is unsupported on GitHub Pages now.
-#highlighter: rouge
-highlighter: default | night
-highlight_theme: default
+highlighter: rouge
+#highlighter: default | night
+#highlight_theme: default
 
 #### Permalink
 # For more see: http://jekyllrb.com/docs/permalinks/
