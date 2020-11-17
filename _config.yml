@@ -3,7 +3,9 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "README_en.md", "Rakefile", "
 
 #### Code Highlighter
 # 'pygments' is unsupported on GitHub Pages now.
-highlighter: rouge
+#highlighter: rouge
+highlighter: default | night
+highlight_theme: default
 
 #### Permalink
 # For more see: http://jekyllrb.com/docs/permalinks/
@@ -114,6 +116,7 @@ toc:
 links:
   码农圈: https://coderq.com
   Jark's Blog: http://wuchong.me
+  博客园: https://www.cnblogs.com/jianxiaochong
 
 #### Comment
 duoshuo_shortname:    ## e.g. wuchong      your duoshuo short name.       website: http://duoshuo.com
