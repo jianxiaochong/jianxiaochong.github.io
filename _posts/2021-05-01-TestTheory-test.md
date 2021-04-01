@@ -1,6 +1,6 @@
 ---
 
-title: 软件测试 #标题
+title: 软件测试理论 #标题
 author: jianxiaochong #作者
 date: 2021-05-01 11:33:00 +0800 #时间
 categories: [Blogging, Demo] #顶级类别，次级类别
