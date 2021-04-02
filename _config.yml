@@ -117,47 +117,92 @@ defaults:
       layout: post
       comments: true    #在帖子中启用评论。
       toc: true         #在文章中显示目录栏。
-
-   -
+      location: Post
+      breadcrumb:
+        -
+          label: Posts
+          url: /
+  -
     scope:
       path: _drafts
     values:
       comments: false
   -
     scope:
-      path: ''
-      type: tabs             # see `site.collections`
+      path: tags
+    values:
+      tab_active: Tags
+      location: Tag
+      breadcrumb:
+        -
+          label: Home
+          url: /
+        -
+          label: Tags
+          url: /tabs/tags/
+  -
+    scope:
+      path: categories
+    values:
+      tab_active: Categories
+      location: Category
+      breadcrumb:
+        -
+          label: Home
+          url: /
+        -
+          label: Categories
+          url: /tabs/categories/
+  -
+    scope:
+      path: tabs
     values:
       layout: page
-      permalink: /:title/
-      dynamic_title: true    # Hide title in mobile screens.
+      dynamic_title: true    #在移动屏幕中隐藏标题。
+      breadcrumb:
+        -
+          label: Home
+          url: /
+
 
 sass:
+  sass_dir: /assets/css
   style: compressed
 
 compress_html:
   clippings: all
-  comments: all
-  endings: all
+  comments: ["<!-- ", " -->"]
+  endings: [html, head, body, dt, dd, rt, rp,
+            optgroup, option, colgroup, caption,
+            thead, tbody, tfoot, tr, td, th]
   profile: false
   blanklines: false
   ignore:
-    envs: [development]
+    envs: []
 
 exclude:
-  - vendor
-  - Gemfile
+  - vendor        #避免Jekyll错误地读取Travis CI的VM上的供应商目录。
   - Gemfile.lock
-  - '*.gem'
-  - '*.gemspec'
+  - Gemfile
   - tools
   - docs
   - README.md
   - LICENSE
-  - gulpfile.js
-  - node_modules
-  - package.json
-  - package-lock.json
+
+sitemap_exclude:  #站点地图将排除以下项目。
+  fuzzy:
+    - /assets/
+  accurate:
+    - /norobots/
+    - /tabs/
+    - /categories/
+    - /tags/
+    - /posts/
+    - 404.html
+    - feed.xml
+    - sitemap.xml
+    - robots.txt
+    - redirects.json
 
 jekyll-archives:
   enabled: [categories, tags]
